@@ -19,3 +19,11 @@ Jupyter Notebook Notes:
 - Code for 2-parameter model search is contained in Logistic_Regression.py
 - Code for validation statistics in contained in logreg_stats.py.
 
+## Chemical Space
+This Jupyter notebook is designed to be run with one excel spreadsheet which contains our bisphosphine ligand parameters, with all ligands treated as though they posses C2v symmetry. Therefore, the parameters used in this representation of chemical space do not account for absolute stereochemistry of the ligands.
+- Initialization: imports the necessary packages.
+- Load data: Reads in the data from the associated excel spreadsheet
+- Run PCA analysis: Performs principal componant analysis on the selected parameters
+- Plot a subset of ligands in curated chemical space: Here you can define lists of ligands that you wish to plot in this chemical space
+- Plot 2D Chemical Space on Choice of Two Dimensions: Plots the various 2D chemical space maps (Steric/Electronic, Geometric/ElectroniC and Geometric/Steric).
+- Neighbour Analysis: Use this section to find the distance between test set ligands and their nearest training set ligand.
