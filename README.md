@@ -29,3 +29,9 @@ Notes:
 - Plot a subset of ligands in curated chemical space: Here you can define lists of ligands that you wish to plot in this chemical space
 - Plot 2D Chemical Space on Choice of Two Dimensions: Plots the various 2D chemical space maps (Steric/Electronic, Geometric/ElectroniC and Geometric/Steric).
 - Neighbour Analysis: Use this section to find the distance between test set ligands and their nearest training set ligand.
+
+## GetSum Parameters
+
+The GetSum parameter acquisition script is designed to pull parameters from bisphosphine ligands. It is critical that the folder system is organized in the same manner as the example included in this repository. In the same folder that the Jupyter Notebook is run from there must be a folder titled ‘DFT_files_atom_nums’. Nested in this folder should be ‘Atom_numbers.xlsx’ – a spreadsheet containing the atom numbers for all of the ligands and another folder ‘Ligand_Calcs’. Nested within the ligand calcs folder is an individual folder for each ligand to be parameterized. The ligand folders must have the following naming format. 
+‘Ligand ID’_’_ligand name’. If there are spaces in the name, these should be converted to underscores.
+(e.g. SS Et DuPhos (ID 10) would have the folder name ‘10_SS_Et_DuPhos’).
