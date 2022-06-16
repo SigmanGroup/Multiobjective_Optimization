@@ -43,6 +43,9 @@ Once the atom numbers excel spreadsheet and the folders containing the log files
 
 The Jupyter Notebook produces an excel spreadsheet with two sheets. One sheet treats all ligands according to their symmetry while the second simplifies parameters and treats all ligands as being C2v symmetric (see manuscript and supplementary information for more details).
 
+## Citation
+
+Add citation for morfeus
 
 ## Contributors
 - Chemical_Space: code by Lucy van Dijk and Jordan Dotson
