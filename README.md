@@ -7,7 +7,7 @@ This repository contains the scripts necessary for:
 
 ## Logistic Regression 
 
-The logistic regression script is designed to work with two excel spreadsheets: one with ligand descriptors and one reaction data. For examples, 'Bisphosphine_descriptors' and 'Bisphosphine_rxn_data'.
+The logistic regression script is designed to work with two excel spreadsheets: one with ligand descriptors and one reaction data. For examples, see 'Bisphosphine_descriptors' and 'Bisphosphine_rxn_data'.
 
 Notes: 
 - The Jupyter Notebook is designed to search for the best one-parameter and two-parameter logistic regression models. This version of the script does not search for 3+ parameter logistic regression models. 
