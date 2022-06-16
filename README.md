@@ -42,3 +42,8 @@ Notes:
   
 - Job-type is blank for optimizations, ‘SPE’ for single-point calculations with the PdCl2, and ‘SPE_NoPd’ for the single-point calculations without PdCl2. 
 (e.g. DFT-output files for conformer #1 for (S,S) Et DuPhos would be ‘SS_Et_DuPhos_1.log’, ‘SS_Et_DuPhos_1_SPE.log’, and ‘SS_Et_DuPhos_1_SPE_NoPd.log’
+
+## Contributors
+- Chemical_Space: code by Lucy van Dijk and Jordan Dotson
+- GetSum_Parameters: code by Jordan Dotson and Lucy van Dijk. Portions of code were adapted from a script by Toby Gensch.
+- Logistic Regression: code by Jordan Dotson with contributions from Lucy van Dijk. Portions of code were adpated from a script by Cian Kingston
