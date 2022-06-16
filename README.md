@@ -42,13 +42,13 @@ Notes:
 - Job-type is blank for optimizations, ‘SPE’ for single-point calculations with the PdCl2, and ‘SPE_NoPd’ for the single-point calculations without PdCl2. 
 (e.g. DFT-output files for conformer #1 for (S,S) Et DuPhos would be ‘SS_Et_DuPhos_1.log’, ‘SS_Et_DuPhos_1_SPE.log’, and ‘SS_Et_DuPhos_1_SPE_NoPd.log’
 
-## Contributors
-- Chemical_Space: code by Lucy van Dijk and Jordan Dotson
-- GetSum_Parameters: code by Jordan Dotson and Lucy van Dijk. Portions of code were adapted from a script by Toby Gensch.
-- Logistic Regression: code by Jordan Dotson with contributions from Lucy van Dijk. Portions of code were adpated from a script by Cian Kingston
-
 Jupyter Notebook (Funky_conformers_v3.ipynb) Notes:
 Once the atom numbers excel spreadsheet and the folders containing the log files are set up, the Jupyter Notebook requires minor user input. The user must specify local file paths, specifications of the atom numbers spreadsheet, and desired names for the resultant parameter spreadsheets that are produced (see Jupyter Notebook for more details). 
 
 The Jupyter Notebook produces an excel spreadsheet with two sheets. One sheet treats all ligands according to their symmetry while the second simplifies parameters and treats all ligands as being C2v symmetric (see manuscript and supplementary information for more details).
 
+
+## Contributors
+- Chemical_Space: code by Lucy van Dijk and Jordan Dotson
+- GetSum_Parameters: code by Jordan Dotson and Lucy van Dijk. Portions of code were adapted from a script by Toby Gensch.
+- Logistic Regression: code by Jordan Dotson with contributions from Lucy van Dijk. Portions of code were adpated from a script by Cian Kingston
