@@ -32,14 +32,13 @@ Notes:
 
 ## GetSum Parameters
 
-The GetSum parameter acquisition script is designed to pull parameters from bisphosphine ligands. It is critical that the folder system is organized in the same manner as the example included in this repository. In the same folder that the Jupyter Notebook is run from there must be a folder titled ‘DFT_files_atom_nums’. Nested in this folder should be ‘Atom_numbers.xlsx’ – a spreadsheet containing the atom numbers for all of the ligands and another folder ‘Ligand_Calcs’. Nested within the ligand calcs folder is an individual folder for each ligand to be parameterized. The ligand folders must have the following naming format. 
+- The GetSum parameter acquisition script is designed to pull parameters from bisphosphine ligands. It is critical that the folder system is organized in the same manner as the example included in this repository. In the same folder that the Jupyter Notebook is run from there must be a folder titled ‘DFT_files_atom_nums’. Nested in this folder should be ‘Atom_numbers.xlsx’ – a spreadsheet containing the atom numbers for all of the ligands and another folder ‘Ligand_Calcs’. Nested within the ligand calcs folder is an individual folder for each ligand to be parameterized. The ligand folders must have the following naming format. 
 ‘Ligand ID’_’_ligand name’. If there are spaces in the name, these should be converted to underscores.
 (e.g. SS Et DuPhos (ID 10) would have the folder name ‘10_SS_Et_DuPhos’).
 
-Each ligand folder must contain the all of the final DFT output files (ending in ‘.log’) for all of the conformers for the ligand. Each DFT-output file should have the following naming convention:
+- Each ligand folder must contain the all of the final DFT output files (ending in ‘.log’) for all of the conformers for the ligand. Each DFT-output file should have the following naming convention:
 
- Ligand name _ conformer number(1-5) _ job-type>.log
+- Ligand name _ conformer number(1-5) _ job-type>.log
   
-Job-type is blank for optimizations, ‘SPE’ for single-point calculations with the PdCl2, and ‘SPE_NoPd’ for the single-point calculations without PdCl2.
-  
+- Job-type is blank for optimizations, ‘SPE’ for single-point calculations with the PdCl2, and ‘SPE_NoPd’ for the single-point calculations without PdCl2. 
 (e.g. DFT-output files for conformer #1 for (S,S) Et DuPhos would be ‘SS_Et_DuPhos_1.log’, ‘SS_Et_DuPhos_1_SPE.log’, and ‘SS_Et_DuPhos_1_SPE_NoPd.log’
