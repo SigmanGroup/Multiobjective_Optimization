@@ -7,4 +7,6 @@ This repository contains the scripts necessary for:
 
 ## Logistic Regression
 
-The logistic regression script is designed to work with 
+The logistic regression script is designed to work with two excel spreadsheets: one with ligand descriptors and one reaction data. For examples, 'Bisphosphine_descriptors' and 'Bisphosphine_rxn_data'. 
+
+
