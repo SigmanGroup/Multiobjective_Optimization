@@ -38,7 +38,7 @@ The GetSum parameter acquisition script is designed to pull parameters from bisp
 
 Each ligand folder must contain the all of the final DFT output files (ending in ‘.log’) for all of the conformers for the ligand. Each DFT-output file should have the following naming convention:
 
-'<Ligand name>_<conformer number (1-5)>_<job-type>.log'
+ '<Ligand name> _ <conformer number (1-5)>_<job-type>.log'
   
 Job-type is blank for optimizations, ‘SPE’ for single-point calculations with the PdCl2, and ‘SPE_NoPd’ for the single-point calculations without PdCl2.
   
