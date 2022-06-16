@@ -7,9 +7,9 @@ This repository contains the scripts necessary for:
 
 ## Logistic Regression 
 
-Jupyter Notebook Notes: 
-- The logistic regression script is designed to work with two excel spreadsheets: one with ligand descriptors and one reaction data. For examples, 'Bisphosphine_descriptors' and 'Bisphosphine_rxn_data'.
+The logistic regression script is designed to work with two excel spreadsheets: one with ligand descriptors and one reaction data. For examples, 'Bisphosphine_descriptors' and 'Bisphosphine_rxn_data'.
 
+Notes: 
 - The Jupyter Notebook is designed to search for the best one-parameter and two-parameter logistic regression models. This version of the script does not search for 3+ parameter logistic regression models. 
 - Notebook Sections 1-3 prepare the script and read in all data.
 - Notebook Section 4 runs univariate logistic regression model search.
@@ -21,6 +21,8 @@ Jupyter Notebook Notes:
 
 ## Chemical Space
 This Jupyter notebook is designed to be run with one excel spreadsheet which contains our bisphosphine ligand parameters, with all ligands treated as though they posses C2v symmetry. Therefore, the parameters used in this representation of chemical space do not account for absolute stereochemistry of the ligands.
+
+Notes: 
 - Initialization: imports the necessary packages.
 - Load data: Reads in the data from the associated excel spreadsheet
 - Run PCA analysis: Performs principal componant analysis on the selected parameters
