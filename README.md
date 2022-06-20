@@ -45,7 +45,7 @@ The Jupyter Notebook produces an excel spreadsheet with two sheets. One sheet tr
 
 ## Citation
 
-Add citation for morfeus
+https://kjelljorner.github.io/morfeus/
 
 ## Contributors
 - Chemical_Space: code by Lucy van Dijk and Jordan Dotson
