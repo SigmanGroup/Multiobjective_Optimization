@@ -44,6 +44,16 @@ Once the atom numbers excel spreadsheet and the folders containing the log files
 
 The Jupyter Notebook produces an excel spreadsheet with two sheets. One sheet treats all ligands according to their symmetry while the second simplifies parameters and treats all ligands as being C2v symmetric (see manuscript and supplementary information for more details).
 
+Atom_numbers.xlsx Notes:
+- Every ligand that will be parameterized must have a row in the atom numbers spreadsheet for both the PdCl2 complex and the complex without PdCl2
+- In addition to inputing the atom numbers (see SI for more details) the following columns must be filled out
+- Symmetry: Point-group of the ligand (C1, C2, C2v, or Cs)
+- Renumber: True for C1 and C2 ligands that do not have the Walphos or Josiphos backbone. False for all other ligands
+- Chiral: True if the ligand is chiral, otherwise False.
+- log_name: name of the single-point file for the lowest energy conformer (e.g. 'SS_DuPhos_1_SPE')
+- log_name (NoPd): name of the single-point file for the lowest energy conformer without PdCl2 (e.g. 'SS_DuPhos_1_SPE_NoPd')
+- opt_log_name: name of the optimization file for the lowest energy conformer (e.g. 'SS_DuPhos_1')
+
 ## Citation
 
 https://kjelljorner.github.io/morfeus/
