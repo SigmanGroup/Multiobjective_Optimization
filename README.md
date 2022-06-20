@@ -16,7 +16,7 @@ Notes:
 - Code for validation statistics in contained in logreg_stats.py.
 
 ## Chemical Space
-This Jupyter notebook is designed to be run with one excel spreadsheet which contains our bisphosphine ligand parameters, with all ligands treated as though they possess C2v symmetry. Therefore, the parameters used in this representation of chemical space do not account for absolute stereochemistry of the ligands.
+This Jupyter notebook is designed to be run with one excel spreadsheet which contains bisphosphine ligand parameters, with all ligands treated as though they possess C2v symmetry. Therefore, the parameters used in this representation of chemical space do not account for absolute stereochemistry of the ligands.
 
 Notes: 
 - Initialization: imports the necessary packages.
