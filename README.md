@@ -60,5 +60,5 @@ https://kjelljorner.github.io/morfeus/
 
 ## Contributors
 - Chemical_Space: code by Lucy van Dijk and Jordan Dotson
-- GetSum_Parameters: code by Jordan Dotson and Lucy van Dijk. Portions of code were adapted from a script by Toby Gensch.
+- GetSum_Parameters: code by Jordan Dotson and Lucy van Dijk. Portions of code were adapted from a script by Tobias Gensch.
 - Logistic Regression: code by Jordan Dotson with contributions from Lucy van Dijk. Portions of code were adpated from a script by Cian Kingston
