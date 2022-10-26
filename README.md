@@ -5,6 +5,9 @@ This repository contains the scripts necessary for:
 - Parameter acquisition for bisphosphine ligands
 - Chemical space visualization for bisphosphine ligands
 
+This repository also contains the most up-to-date bisphosphine parameters spreadsheet. 
+- Current version: Parameters_10_21_22
+
 ## Logistic Regression 
 
 The logistic regression script is designed to work with two excel spreadsheets: one with ligand descriptors and one reaction data. For examples, see 'Bisphosphine_descriptors' and 'Bisphosphine_rxn_data'.
